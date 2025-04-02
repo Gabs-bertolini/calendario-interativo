@@ -1,4 +1,13 @@
-table
+.calendar, th, td
 {
-    border: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+}
+
+th
+{
+    background-color: yellow;
 }
