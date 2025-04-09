@@ -11,7 +11,7 @@ function colorirDia()
     }
     else if((day > 0) &&(day < 31))
     {
-        let td = calendar.getElementsByTagName('td');
+        let td = calendar.getElementsByTagName('td')[parseInt(day)+1];
 
         td.style.backgroundColor = color;
     }
